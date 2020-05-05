@@ -15,6 +15,9 @@
 		9E0F77FD245F2038002B4401 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E0F77FB245F2038002B4401 /* LaunchScreen.storyboard */; };
 		9E0F7808245F2039002B4401 /* FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F7807245F2039002B4401 /* FinalProjectTests.swift */; };
 		9E0F7813245F2039002B4401 /* FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F7812245F2039002B4401 /* FinalProjectUITests.swift */; };
+		9E0F7821245F42ED002B4401 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F7820245F42ED002B4401 /* TabBarVC.swift */; };
+		9E0F7823245F625A002B4401 /* DislikedImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F7822245F625A002B4401 /* DislikedImagesVC.swift */; };
+		9E0F7825245FAD45002B4401 /* LikedImagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E0F7824245FAD45002B4401 /* LikedImagesVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		9E0F780E245F2039002B4401 /* FinalProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinalProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E0F7812245F2039002B4401 /* FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinalProjectUITests.swift; sourceTree = "<group>"; };
 		9E0F7814245F2039002B4401 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E0F7820245F42ED002B4401 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		9E0F7822245F625A002B4401 /* DislikedImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DislikedImagesVC.swift; sourceTree = "<group>"; };
+		9E0F7824245FAD45002B4401 /* LikedImagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedImagesVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,9 @@
 				9E0F77F2245F2038002B4401 /* SceneDelegate.swift */,
 				9E0F77F4245F2038002B4401 /* ViewController.swift */,
 				9E0F77F6245F2038002B4401 /* Main.storyboard */,
+				9E0F7824245FAD45002B4401 /* LikedImagesVC.swift */,
+				9E0F7822245F625A002B4401 /* DislikedImagesVC.swift */,
+				9E0F7820245F42ED002B4401 /* TabBarVC.swift */,
 				9E0F77F9245F2038002B4401 /* Assets.xcassets */,
 				9E0F77FB245F2038002B4401 /* LaunchScreen.storyboard */,
 				9E0F77FE245F2038002B4401 /* Info.plist */,
@@ -259,8 +268,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E0F7825245FAD45002B4401 /* LikedImagesVC.swift in Sources */,
 				9E0F77F5245F2038002B4401 /* ViewController.swift in Sources */,
+				9E0F7823245F625A002B4401 /* DislikedImagesVC.swift in Sources */,
 				9E0F77F1245F2038002B4401 /* AppDelegate.swift in Sources */,
+				9E0F7821245F42ED002B4401 /* TabBarVC.swift in Sources */,
 				9E0F77F3245F2038002B4401 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
